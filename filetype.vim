@@ -3,5 +3,5 @@ if exists("did_load_filetypes")
 endif
 
 augroup omake
-  au BufRead,BufNewFile OMakefile,OMakeroot setfiletype omake
+  au BufRead,BufNewFile OMakefile,OMakeroot,*.om setfiletype omake
 augroup END
